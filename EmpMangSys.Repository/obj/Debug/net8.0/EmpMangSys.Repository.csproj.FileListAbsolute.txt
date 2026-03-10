@@ -1,0 +1,17 @@
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Repository.deps.json
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Repository.runtimeconfig.json
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Repository.dll
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Repository.pdb
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Core.dll
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\bin\Debug\net8.0\EmpMangSys.Core.pdb
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.csproj.AssemblyReference.cache
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.AssemblyInfoInputs.cache
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.AssemblyInfo.cs
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.csproj.CoreCompileInputs.cache
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangS.7C4BCCDF.Up2Date
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.dll
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\refint\EmpMangSys.Repository.dll
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.pdb
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\EmpMangSys.Repository.genruntimeconfig.cache
+D:\P1\EmployeeManagementSystem\EmpMangSys.Repository\obj\Debug\net8.0\ref\EmpMangSys.Repository.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1aoAdBWv7Yw=",
+  "success": true,
+  "projectFilePath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MEGA TECH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\MEGA TECH\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\MEGA TECH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

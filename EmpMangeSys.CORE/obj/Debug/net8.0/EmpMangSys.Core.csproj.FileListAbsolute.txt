@@ -1,0 +1,11 @@
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\bin\Debug\net8.0\EmpMangSys.Core.deps.json
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\bin\Debug\net8.0\EmpMangSys.Core.dll
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\bin\Debug\net8.0\EmpMangSys.Core.pdb
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.AssemblyInfoInputs.cache
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.AssemblyInfo.cs
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.csproj.CoreCompileInputs.cache
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.dll
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\refint\EmpMangSys.Core.dll
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\EmpMangSys.Core.pdb
+D:\P1\EmployeeManagementSystem\EmpMangeSys.CORE\obj\Debug\net8.0\ref\EmpMangSys.Core.dll
