@@ -1,4 +1,4 @@
-# Employee Management System API
+# mployee_Managemnet_API
 
 A simple and clean **ASP.NET Core Web API** built to manage employees inside a company.
 This project demonstrates backend development fundamentals including **API design, Entity Framework Core, LINQ queries, validation, and clean architecture practices**.
