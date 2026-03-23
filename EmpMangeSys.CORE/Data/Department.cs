@@ -1,6 +1,4 @@
-﻿using System.Collections.ObjectModel;
-
-namespace EmpMangSys.Core.Data
+﻿namespace EmpMangSys.Core.Data
 {
     public class Department : BaseEntity
     {

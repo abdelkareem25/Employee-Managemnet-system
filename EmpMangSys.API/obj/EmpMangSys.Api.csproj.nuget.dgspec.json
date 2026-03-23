@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj": {}
+    "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj": {}
   },
   "projects": {
-    "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
+    "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj",
+        "projectUniqueName": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj",
         "projectName": "EmpMangSys.Core",
-        "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj",
+        "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj",
         "packagesPath": "C:\\Users\\MEGA TECH\\.nuget\\packages\\",
-        "outputPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\obj\\",
+        "outputPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,15 +63,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -79,18 +79,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj": {
+    "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
+        "projectUniqueName": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
         "projectName": "EmpMangSys.Api",
-        "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
+        "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
         "packagesPath": "C:\\Users\\MEGA TECH\\.nuget\\packages\\",
-        "outputPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\obj\\",
+        "outputPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,11 +111,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
-                "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
+              "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
+                "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
               },
-              "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
-                "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj"
+              "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
+                "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj"
               }
             }
           }
@@ -138,7 +138,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.0, )"
+              "version": "[16.1.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -175,19 +175,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -198,18 +198,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
+    "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj",
+        "projectUniqueName": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj",
         "projectName": "EmpMangSys.Repository",
-        "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj",
+        "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj",
         "packagesPath": "C:\\Users\\MEGA TECH\\.nuget\\packages\\",
-        "outputPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\obj\\",
+        "outputPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,8 +230,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
-                "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
+              "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
+                "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
               }
             }
           }
@@ -281,15 +281,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -297,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,12 +8,12 @@ namespace EmpMangSys.Api.Helper
     {
         public MappingProfiles()
         {
-            CreateMap<Employee,GetEmployeesDTOs>()
+            CreateMap<Employee,GetEmployeesDTO>()
                 .ForMember(dest => dest.DepartmentName,
             opt => opt.MapFrom(src => src.Department.Name));
 
-            CreateMap<CreateEmployeeDTOs, Employee>();
-            CreateMap<UpdateDTOs, Employee>();
+            CreateMap<CreateEmployeeDTO, Employee>();
+            CreateMap<UpdateDTO, Employee>();
         }
     }
 }

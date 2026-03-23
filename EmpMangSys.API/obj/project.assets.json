@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "AutoMapper/16.1.0": {
+      "AutoMapper/16.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
@@ -1580,16 +1580,16 @@
     }
   },
   "libraries": {
-    "AutoMapper/16.1.0": {
-      "sha512": "dslB2z3keOkRdo5N1sWUhTv+37ZXKm2tsJOcUPVOi+Kf1CxkcVsGwH5MeLDKyR+T8WPKwiPq2yhDPMkCfPK16w==",
+    "AutoMapper/16.1.1": {
+      "sha512": "VNEky8JA15ci+oIDRGHITOGOpV4dILsf8pnn24QhDl2urtqgJ2IXiS/V2EtGU17P/+f6OeFQPJETaZXV9QOIZg==",
       "type": "package",
-      "path": "automapper/16.1.0",
+      "path": "automapper/16.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
-        "automapper.16.1.0.nupkg.sha512",
+        "automapper.16.1.1.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/net10.0/AutoMapper.dll",
@@ -4223,7 +4223,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AutoMapper >= 16.1.0",
+      "AutoMapper >= 16.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "EmpMangSys.Core >= 1.0.0",
       "EmpMangSys.Repository >= 1.0.0",
@@ -4239,11 +4239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
+      "projectUniqueName": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
       "projectName": "EmpMangSys.Api",
-      "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
+      "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\EmpMangSys.Api.csproj",
       "packagesPath": "C:\\Users\\MEGA TECH\\.nuget\\packages\\",
-      "outputPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.API\\obj\\",
+      "outputPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4264,11 +4264,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
-              "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
+            "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj": {
+              "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangeSys.CORE\\EmpMangSys.Core.csproj"
             },
-            "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
-              "projectPath": "D:\\P1\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj"
+            "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj": {
+              "projectPath": "D:\\GITHUB Uploader\\EmployeeManagementSystem\\EmpMangSys.Repository\\EmpMangSys.Repository.csproj"
             }
           }
         }
@@ -4291,7 +4291,7 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "[16.1.0, )"
+            "version": "[16.1.1, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -4328,19 +4328,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
+            "version": "[8.0.25, 8.0.25]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.24, 8.0.24]"
+            "version": "[8.0.25, 8.0.25]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
+            "version": "[8.0.25, 8.0.25]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
+            "version": "[8.0.25, 8.0.25]"
           }
         ],
         "frameworkReferences": {
@@ -4351,7 +4351,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

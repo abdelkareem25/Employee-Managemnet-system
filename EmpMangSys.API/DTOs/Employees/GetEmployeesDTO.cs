@@ -1,13 +1,27 @@
 ﻿using EmpMangSys.Core.Data;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmpMangSys.Api.DTOs.Employees
 {
-    public class GetEmployeesDTOs
+    public class GetEmployeesDTO
     {
+        [Required]
+        [MaxLength(100)]
         public string FullName { get; set; }
+
+        [Required]
+        [EmailAddress]
         public string Email { get; set; }
+
+        [Required]
+        [Range(0, double.MaxValue)]
         public decimal Salary { get; set; }
+
+        [Required]
+        [Phone]
         public string PhoneNumber { get; set; }
+
+        [Required]
         public string DepartmentName { get; set; }
     }
 }

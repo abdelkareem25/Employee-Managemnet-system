@@ -1,4 +1,5 @@
 
+using EmpMangSys.Api.Extensions;
 using EmpMangSys.Api.Helper;
 using EmpMangSys.Core.Interface;
 using EmpMangSys.Repository.DataBaseContext;
@@ -29,9 +30,6 @@ namespace EmpMangSys.API
 
             var app = builder.Build();
 
-            #region Update DataBase
-            // i will do it latter 
-            #endregion
             #region Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -40,7 +38,7 @@ namespace EmpMangSys.API
             }
 
             app.UseHttpsRedirection();
-
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseAuthorization();
 
 

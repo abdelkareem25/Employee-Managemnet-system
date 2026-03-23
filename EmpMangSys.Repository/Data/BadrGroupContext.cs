@@ -1,6 +1,4 @@
-﻿using EmpMangSys.Repository.Configurations;
-
-namespace EmpMangSys.Repository.DataBaseContext
+﻿namespace EmpMangSys.Repository.DataBaseContext
 {
     public class BadrGroupDbContext : DbContext
     {

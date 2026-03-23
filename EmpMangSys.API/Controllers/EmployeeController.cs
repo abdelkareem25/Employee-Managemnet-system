@@ -23,7 +23,7 @@ namespace EmpMangSys.Api.Controllers
 
         //Get all
         [HttpGet]
-        public ActionResult<IEnumerable<GetEmployeesDTOs>> GetAll()
+        public ActionResult<IEnumerable<GetEmployeesDTO>> GetAll()
         {
             try
             {
@@ -32,7 +32,7 @@ namespace EmpMangSys.Api.Controllers
                 {
                     return NotFound(new { message = "No employees found"});
                 }
-                var map= mapper.Map<IEnumerable<GetEmployeesDTOs>>(result);
+                var map= mapper.Map<IEnumerable<GetEmployeesDTO>>(result);
                 return Ok(map);
             }
             catch (Exception)
@@ -47,7 +47,7 @@ namespace EmpMangSys.Api.Controllers
         }
         //Get by id
         [HttpGet("{id}")]
-        public ActionResult<GetEmployeesDTOs> GetById(int id)
+        public ActionResult<GetEmployeesDTO> GetById(int id)
         {
             try
             {
@@ -56,7 +56,7 @@ namespace EmpMangSys.Api.Controllers
                 {
                     return NotFound();
                 }
-                var map = mapper.Map<GetEmployeesDTOs>(result);
+                var map = mapper.Map<GetEmployeesDTO>(result);
                 return Ok(map);
             }
             catch (Exception)
@@ -72,22 +72,28 @@ namespace EmpMangSys.Api.Controllers
         }
         //Create
         [HttpPost]
-        public ActionResult Create(CreateEmployeeDTOs createEmployeeDto)
+        public ActionResult Create(CreateEmployeeDTO createEmployeeDto)
         {
-            var employee = mapper.Map<Employee>(createEmployeeDto);
-            repository.Create(employee);
+            try
+            {
+                var employee = mapper.Map<Employee>(createEmployeeDto);
+
+                repository.Create(employee);
+                var result = mapper.Map<GetEmployeesDTO>(employee);
+
+                return CreatedAtAction(nameof(GetById), new { id = employee.Id }, result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Something went wrong");
+            }
             
-            return Ok(mapper.Map<GetEmployeesDTOs>(employee)); // Return the created employee with its new ID [Chat GPT help me here]
         }
         //Update
         [HttpPut("{id}")]
-        public ActionResult Update(GetEmployeesDTOs dto ,int id)
+        public ActionResult Update(UpdateDTO dto ,int id)
         {
-            //var employee = mapper.Map<Employee>(dto);  // my code
-            //repository.Update(employee);
-            //return Ok(employee);
-
-            var existingEmployee = repository.GetById(id); // chat gpt code
+            var existingEmployee = repository.GetById(id); 
             if (existingEmployee == null)
             {
                 return NotFound();
@@ -100,20 +106,24 @@ namespace EmpMangSys.Api.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
+            var employee = repository.GetById(id);
+            if (employee == null)
+                return NotFound();
             repository.Delete(id);
-            return Ok();
+            return NoContent();
         }
 
         // Search Endpoint
         [HttpGet("search")]
-        public ActionResult Search(string name , string department)
+        public ActionResult Search(string? name = null , string? department = null)
         {
             var result = repository.GetAll();
             if (!string.IsNullOrEmpty(name))
-                result = result.Where(e => e.FullName == name).ToList();
+                result = result.Where(e => e.FullName.Contains(name)).ToList();
             if(!string.IsNullOrEmpty(department))
-                result = result.Where(e => e.Department.Name == department);
-            return Ok(result);
+                result = result.Where(e => e.Department.Name == department).ToList();
+            var mapped = mapper.Map<IEnumerable<GetEmployeesDTO>>(result);
+            return Ok(mapped);
         }
     }
 }

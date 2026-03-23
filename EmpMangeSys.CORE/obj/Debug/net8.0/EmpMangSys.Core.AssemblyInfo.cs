@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmpMangSys.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684ebdea0d5a97e87611ddef8bb4f3e12648052d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmpMangSys.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmpMangSys.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

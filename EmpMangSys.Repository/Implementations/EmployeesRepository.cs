@@ -1,10 +1,5 @@
 ﻿using EmpMangSys.Core.Interface;
 using EmpMangSys.Repository.DataBaseContext;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmpMangSys.Repository.Interface_Implementations
 {
@@ -24,7 +19,7 @@ namespace EmpMangSys.Repository.Interface_Implementations
 
         public Employee GetById(int id)
         {
-            return context.Employees.FirstOrDefault(e => e.Id == id);
+            return context.Employees.Include(e=>e.Department).FirstOrDefault(e => e.Id == id);
         }
         public void Create(Employee employee)
         {
@@ -45,6 +40,10 @@ namespace EmpMangSys.Repository.Interface_Implementations
                 context.Employees.Remove(emp);
                 context.SaveChanges();
             }
+        }
+        public void Save() 
+        {
+            context.SaveChanges();
         }
     }
 }
